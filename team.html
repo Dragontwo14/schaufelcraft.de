@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Schaufelcraft – Team</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="logo"><a href="index.html">Schaufelcraft</a></div>
+    <button class="hamburger" id="hamburger">&#9776;</button>
+    <nav id="nav-links">
+      <a href="index.html">Home</a>
+      <a href="team.html">Team</a>
+      <a href="extras.html">Extras</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h1>Unser Team</h1>
+      <div class="grid">
+        <div class="feature"><h3>CyberDev_</h3><p>Owner</p></div>
+        <div class="feature"><h3>Dragoniuos</h3><p>Owner</p></div>
+        <div class="feature"><h3>Matoxel</h3><p>Co-Owner, Builder</p></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Kontakt</h2>
+      <p>Fragen? Schreib uns auf Discord oder per Mail: <a href="mailto:info.schaufelcraft@web.de">info.schaufelcraft@web.de</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Schaufelcraft></p>
+  </footer>
+
+  <script>
+    document.getElementById("hamburger").addEventListener("click", () => {
+      document.getElementById("nav-links").classList.toggle("active");
+    });
+  </script>
+</body>
+</html>
