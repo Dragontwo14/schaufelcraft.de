@@ -74,7 +74,19 @@ nav a {
   padding: 1.5rem;
   border-radius: 8px;
 }
-
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  text-align: center;
+}
+.team-card img {
+  border-radius: 8px;
+  width: 100px;
+  height: 100px;
+  background: #333;
+  margin-bottom: 0.5rem;
+}
 /* Footer */
 footer {
   background: #1a1a1a;
