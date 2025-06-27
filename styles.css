@@ -33,6 +33,15 @@ header {
   font-weight: bold;
   color: white;
 }
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.logo-img {
+  width: 32px;
+  height: 32px;
+}
 nav {
   display: flex;
   gap: 1rem;
