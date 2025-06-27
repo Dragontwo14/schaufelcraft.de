@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Schaufelcraft – Home</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="logo"><a href="index.html">Schaufelcraft</a></div>
+    <button class="hamburger" id="hamburger">&#9776;</button>
+    <nav id="nav-links">
+      <a href="index.html">Home</a>
+      <a href="team.html">Team</a>
+      <a href="extras.html">Extras</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Willkommen bei Schaufelcraft.de</h1>
+      <p>Dein Minecraft-Server mit Wirtschaft, Events und Community!</p>
+      <a class="btn" href="extras.html">Jetzt beitreten</a>
+    </section>
+
+    <section>
+      <h2>Was ist Schaufelcraft.de?</h2>
+      <p>Schaufelcraft.de ist ein deutscher Minecraft-Server mit Fokus auf Survival, Wirtschaft, Events und Spaß. Wir bieten dir ein faires Spielerlebnis mit aktiver Community.</p>
+    </section>
+
+    <section class="grid">
+      <!--<div class="feature"><h3>Wirtschaft</h3><p>Eigenes Shopsystem, Auktionen und Handel.</p></div>-->
+      <div class="feature"><h3>Events</h3><p>Wöchentliche Events mit Belohnungen.</p></div>
+      <div class="feature"><h3>Support</h3><p>Erreichbar über Discord und Ingame-Tickets.</p></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Schaufelcraft</p>
+  </footer>
+
+  <script>
+    document.getElementById("hamburger").addEventListener("click", () => {
+      document.getElementById("nav-links").classList.toggle("active");
+    });
+  </script>
+</body>
+</html>
